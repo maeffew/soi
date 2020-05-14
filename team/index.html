@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html class="no-js" lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
@@ -8,18 +7,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <meta name="theme-color" content="#808285">
-  
+
   <link rel="pingback" href="xmlrpc.html" />
-  
+
   <meta name="msapplication-TileColor" content="#808285">
   <meta name="msapplication-TileImage" content="../wp-content/themes/co-partnership/img/favicons/favicon-144.png">
   <meta name="msapplication-config" content="../wp-content/themes/co-partnership/img/favicons/browserconfig.xml">
   <link rel='dns-prefetch' href='s.w.org/index.html' />
   <link rel='stylesheet' id='961a375cf7d250f1ae164722ec776cea-css'
-    href='../wp-content/themes/co-partnership/assets-built/css/screen7d3c.css' type='text/css'
-    media='all' />
+    href='../wp-content/themes/co-partnership/assets-built/css/screen7d3c.css' type='text/css' media='all' />
   <link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.minc225.css'
     type='text/css' media='all' />
   <script type='text/javascript'
@@ -27,347 +25,431 @@
   <link rel='https://api.w.org/' href='wp-json/index.html' />
   <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.html?rsd" />
   <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 5.4.1" />
-<link rel="canonical" href="index.html" />
-<link rel='shortlink' href='../index5831.html?p=19' />
-<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed6df6.json?url=%2Fcareers%2F" />
-<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed599e?url=%2Fcareers%2F&amp;format=xml" />
+  <meta name="generator" content="WordPress 5.4.1" />
+  <link rel="canonical" href="index.html" />
+  <link rel='shortlink' href='../index5831.html?p=19' />
+  <link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed6df6.json?url=%2Fcareers%2F" />
+  <link rel="alternate" type="text/xml+oembed"
+    href="../wp-json/oembed/1.0/embed599e?url=%2Fcareers%2F&amp;format=xml" />
 </head>
-<body class="page-template page-template-template-careers page-template-template-careers-php page page-id-19" style="background-color: #fad454 !important; color: black !important;">
-<script>
-      ;(function () {
-        var messages = []
-        var loaded = false
 
-        function on (el, event, cb) {
-          el.addEventListener(event, cb)
-          return function () { el.removeEventListener(event, cb) }
-        }
+<body class="page-template page-template-template-careers page-template-template-careers-php page page-id-19"
+  style="background-color: #fad454 !important; color: black !important;">
+  <script>
+    ; (function () {
+      var messages = []
+      var loaded = false
 
-        function withFunctionValues (arr) {
-          return arr.map(function (item) {
-            if (typeof item === 'function') {
-              return item()
-            }
-            return item
-          })
-        }
+      function on(el, event, cb) {
+        el.addEventListener(event, cb)
+        return function () { el.removeEventListener(event, cb) }
+      }
 
-        window.debugged = {
-          parts: {},
-          addServerLog: function () {
-            var args = []
-            for (var arg of arguments) {
-              args.push(arg)
-            }
-            var path = args.pop().shift()
-            var prefix = [path]
-            
-            if (!loaded) {
-              /* Save the values to be console logged once the page has loaded */
-              messages.push(prefix.concat(args))
-            } else {
-              /* Immediately console log the message */
-              console.log.apply(null, prefix.concat(withFunctionValues(args)))
-            }
-          },
-          savePartMeta: function (name, obj) {
-            if (!this.parts[name]) {
-              this.parts[name] = {}
-            }
-
-            for (var k in obj) {
-              this.parts[name][k] = obj[k]
-            }
-          },
-          getPartMeta: function (name) {
-            return this.parts[name]
+      function withFunctionValues(arr) {
+        return arr.map(function (item) {
+          if (typeof item === 'function') {
+            return item()
           }
+          return item
+        })
+      }
+
+      window.debugged = {
+        parts: {},
+        addServerLog: function () {
+          var args = []
+          for (var arg of arguments) {
+            args.push(arg)
+          }
+          var path = args.pop().shift()
+          var prefix = [path]
+
+          if (!loaded) {
+            /* Save the values to be console logged once the page has loaded */
+            messages.push(prefix.concat(args))
+          } else {
+            /* Immediately console log the message */
+            console.log.apply(null, prefix.concat(withFunctionValues(args)))
+          }
+        },
+        savePartMeta: function (name, obj) {
+          if (!this.parts[name]) {
+            this.parts[name] = {}
+          }
+
+          for (var k in obj) {
+            this.parts[name][k] = obj[k]
+          }
+        },
+        getPartMeta: function (name) {
+          return this.parts[name]
         }
-        
-        var onLoad = on(
-          window.document,
-          'DOMContentLoaded',
-          function () {
-            loaded = true
-            for (var message of messages) {
-              var stack = 
+      }
+
+      var onLoad = on(
+        window.document,
+        'DOMContentLoaded',
+        function () {
+          loaded = true
+          for (var message of messages) {
+            var stack =
               console.log.apply(null, withFunctionValues(message))
-            }
-            messages = null
-            onLoad()
-            onLoad = null
-          },
-          false
-        )
-      })()
-    </script>
-<style>
-.jobs__label {color:black;}
-.jobs__intro {color:black;}
-.ui-toggle-icons__wrap {color:black;}
-.footer__external-link {color:black;}
-.footer__heading {color:black;}
-.footer__mask {color:black;}
-.careers__openings-heading {color:black;}
-.footer__small-link {color:black;}
-body > footer > div:nth-child(4) > ul > li:nth-child(2) {color:black;}
-</style>
-<div class="load-indicator" data-widget="load-indicator"></div>
-<header class="header" data-widget="header">
-<svg class="header__gradient" width="10px" height="10px" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="headerGradient" gradientTransform="rotate(90)">
-<stop offset="15%" class="header__gradient-top" />
-<stop offset="100%" class="header__gradient-bottom" />
-</linearGradient>
-</defs>
-<rect fill="url(#headerGradient)" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" />
-</svg>
-<div class="header__container js-header-container">
-<nav class="main-nav" data-widget="main-nav">
-<div class="main-nav__container">
-<button class="hamburger js-hamburger" type="button">
-<div class="hamburger__mask">
-<div class="hamburger__swap">
-<div class="hamburger__icon">
-<svg class="hamburger__svg hamburger__svg--lines" width="19px" height="15px" viewBox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
-<title>Hamburger Menu Icon</title>
-<rect x="0" y="0" width="19" height="3"></rect>
-<rect x="0" y="6" width="19" height="3"></rect>
-<rect x="0" y="12" width="19" height="3"></rect>
-</svg>
-</div>
-<div class="hamburger__icon">
-<svg class="hamburger__svg hamburger__svg--close" width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-<title>Close Icon</title>
-<rect transform="translate(7.778175, 7.778175) rotate(-315.000000) translate(-7.778175, -7.778175) " x="-1.72182541" y="6.27817459" width="19" height="3"></rect>
-<rect transform="translate(7.778175, 7.778175) rotate(-45.000000) translate(-7.778175, -7.778175) " x="-1.72182541" y="6.27817459" width="19" height="3"></rect>
-</svg>
-</div>
-</div>
-</div>
-</button>
-<div class="main-nav__menu js-menu">
-<div class="menu-main-nav-container"><ul id="menu-main-nav" class="menu">
-	<li id="menu-item-13"
-	  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-13"><a
-		href="../index.html">Home</a></li>
-	<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item current-menu-item menu-item-23"><a
-		href="../about/index.html"  aria-current="page">About</a></li>
-	<li id="menu-item-23"
-	  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
-	  <a href="../trainingen/index.html">Trainingen</a></li>
-	  <li id="menu-item-26"
-	  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
-	  <a href="../coaching/index.html">Coaching</a></li>
-	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a
-		href="../team/index.html">Team</a></li>
-	<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a
-		href="../contact/index.html">Contact</a></li>
-  </ul></div> </div>
-</div>
-<div class="main-nav__overlay js-menu-overlay"></div>
-</nav> <h1 class="main-heading" data-widget="main-heading">
-<div class="main-heading__wrap">
-<div class="main-heading__chunk main-heading__chunk--first js-main-heading-top">
-	Sociaal Opleidings-
-</div>
-<div class="home-intro" data-widget="home-intro">
-<div class="home-intro__template js-intro-template">
-<div class="home-intro__mask">
-<div class="home-intro__positioner js-intro-positioner">
-<p>We are a branding and packaging design agency, dedicated to creating brands worth remembering. Just ask <a class="home-intro__link js-intro-imagehover" data-image="project-2731" href="../project/unshackled/index.html">Unshackled</a>, <a class="home-intro__link js-intro-imagehover" data-image="project-2680" href="../project/byron-bay-brewery/index.html">Byron Bay Brewery</a>, <a class="home-intro__link js-intro-imagehover" data-image="project-2555" href="../project/austins/index.html">Austin's</a>, <a class="home-intro__link js-intro-imagehover" data-image="project-2333" href="../project/cuvee-sauvage/index.html">Cuvée Sauvage</a>, <a class="home-intro__link js-intro-imagehover" data-image="project-1896" href="../project/mac-by-brookies/index.html">Mac</a> and many <a class="home-intro__link js-intro-others" href="../work/index.html">others</a>.</p>
-</div>
-</div>
-</div>
-<div class="home-intro__container js-intro-container" aria-hidden></div>
-<img id="project-2731" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape" src="../wp-content/uploads/2020/01/Co-Website_Project_Unshackled-V2-6-1-1400x873.jpg" srcset="
+          }
+          messages = null
+          onLoad()
+          onLoad = null
+        },
+        false
+      )
+    })()
+  </script>
+  <style>
+    .jobs__label {
+      color: black;
+    }
+
+    .jobs__intro {
+      color: black;
+    }
+
+    .ui-toggle-icons__wrap {
+      color: black;
+    }
+
+    .footer__external-link {
+      color: black;
+    }
+
+    .footer__heading {
+      color: black;
+    }
+
+    .footer__mask {
+      color: black;
+    }
+
+    .careers__openings-heading {
+      color: black;
+    }
+
+    .footer__small-link {
+      color: black;
+    }
+
+    body>footer>div:nth-child(4)>ul>li:nth-child(2) {
+      color: black;
+    }
+  </style>
+  <div class="load-indicator" data-widget="load-indicator"></div>
+  <header class="header" data-widget="header">
+    <svg class="header__gradient" width="10px" height="10px" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="headerGradient" gradientTransform="rotate(90)">
+          <stop offset="15%" class="header__gradient-top" />
+          <stop offset="100%" class="header__gradient-bottom" />
+        </linearGradient>
+      </defs>
+      <rect fill="url(#headerGradient)" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" />
+    </svg>
+    <div class="header__container js-header-container">
+      <nav class="main-nav" data-widget="main-nav">
+        <div class="main-nav__container">
+          <button class="hamburger js-hamburger" type="button">
+            <div class="hamburger__mask">
+              <div class="hamburger__swap">
+                <div class="hamburger__icon">
+                  <svg class="hamburger__svg hamburger__svg--lines" width="19px" height="15px" viewBox="0 0 19 15"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>Hamburger Menu Icon</title>
+                    <rect x="0" y="0" width="19" height="3"></rect>
+                    <rect x="0" y="6" width="19" height="3"></rect>
+                    <rect x="0" y="12" width="19" height="3"></rect>
+                  </svg>
+                </div>
+                <div class="hamburger__icon">
+                  <svg class="hamburger__svg hamburger__svg--close" width="16px" height="16px" viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>Close Icon</title>
+                    <rect transform="translate(7.778175, 7.778175) rotate(-315.000000) translate(-7.778175, -7.778175) "
+                      x="-1.72182541" y="6.27817459" width="19" height="3"></rect>
+                    <rect transform="translate(7.778175, 7.778175) rotate(-45.000000) translate(-7.778175, -7.778175) "
+                      x="-1.72182541" y="6.27817459" width="19" height="3"></rect>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </button>
+          <div class="main-nav__menu js-menu">
+            <div class="menu-main-nav-container">
+              <ul id="menu-main-nav" class="menu">
+                <li id="menu-item-13"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-13"><a
+                    href="../index.html">Home</a></li>
+                <li id="menu-item-17"
+                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item current-menu-item menu-item-23">
+                  <a href="../about/index.html" aria-current="page">About</a></li>
+                <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                  <a href="../trainingen/index.html">Trainingen</a></li>
+                <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
+                  <a href="../coaching/index.html">Coaching</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a
+                    href="../team/index.html">Team</a></li>
+                <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a
+                    href="../contact/index.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main-nav__overlay js-menu-overlay"></div>
+      </nav>
+      <div class="main-heading">
+
+				<svg width="107px" height="81px" viewBox="0 0 107 81" version="1.1" xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink">
+					<!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+					<title>soi_logo_solid</title>
+					<desc>Created with Sketch.</desc>
+					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<path
+							d="M65.5,12 C77.1336565,12 86.1429864,16.3965053 91.0010782,24.206174 L91,23.4210526 L107,23.4210526 L107,79.8421053 L91,79.8421053 L91.0004775,54.8968047 C86.1690112,62.6901917 77.2099723,67 65.5,67 C57.8964265,67 51.4527084,65.1741096 46.545728,61.75965 C46.6032682,62.3191056 46.6308594,62.8992061 46.6308594,63.5 C46.6308594,73.8027344 37.2070312,80.5898437 23.7304688,80.5898437 C9.27734375,80.5898437 0.927734375,73.8515625 0,63.5488281 L0,63.5488281 L13.9160156,63.5488281 C14.7949219,68.1386719 18.0664062,70.5800781 23.7304688,70.5800781 C29.1015625,70.5800781 32.421875,68.3828125 32.421875,64.9648437 C32.421875,62.1816406 30.6152344,60.6191406 25.4882812,59.4472656 L25.4882812,59.4472656 L16.5527344,57.5917969 C6.4453125,55.4433594 1.31835938,50.3652344 1.31835938,42.5039062 C1.31835938,32.5429687 9.91210938,26 23.2421875,26 C29.0281736,26 33.8622218,27.2783167 37.5138452,29.553678 C41.2095241,18.4545057 51.4375059,12 65.5,12 Z M65.0277186,23 C57.1556503,23 52,29.0401786 52,39.5 C52,50.0580357 57.0447761,56 65.0277186,56 C72.9552239,56 78,50.0580357 78,39.5 C78,29.0401786 72.8997868,23 65.0277186,23 Z M23.2421875,36.0097656 C18.3105469,36.0097656 15.0390625,38.2558594 15.0390625,41.7226562 C15.0390625,44.4082031 16.9921875,46.2148437 22.265625,47.3378906 L22.265625,47.3378906 L31.2011719,49.2421875 C33.9219686,49.813069 36.2439242,50.5078329 38.1971037,51.347525 C37.1687333,48.8721012 36.4875871,46.1290088 36.1829145,43.1385893 L32.1289062,43.1386719 C31.6894531,38.890625 28.515625,36.0097656 23.2421875,36.0097656 Z M99,-2.95585778e-12 C103.473684,-2.95585778e-12 107,3.52631579 107,7.89473684 C107,12.2105263 103.473684,15.7894737 99,15.7894737 C94.5263158,15.7894737 91,12.2105263 91,7.89473684 C91,3.52631579 94.5263158,-2.95585778e-12 99,-2.95585778e-12 Z"
+							id="soi_logo_solid" fill="#000000" fill-rule="nonzero"></path>
+					</g>
+				</svg>
+			</div>
+
+          </div>
+          <div class="home-intro" data-widget="home-intro">
+            <div class="home-intro__template js-intro-template">
+              <div class="home-intro__mask">
+                <div class="home-intro__positioner js-intro-positioner">
+                  <p>We are a branding and packaging design agency, dedicated to creating brands worth remembering. Just
+                    ask <a class="home-intro__link js-intro-imagehover" data-image="project-2731"
+                      href="../project/unshackled/index.html">Unshackled</a>, <a
+                      class="home-intro__link js-intro-imagehover" data-image="project-2680"
+                      href="../project/byron-bay-brewery/index.html">Byron Bay Brewery</a>, <a
+                      class="home-intro__link js-intro-imagehover" data-image="project-2555"
+                      href="../project/austins/index.html">Austin's</a>, <a class="home-intro__link js-intro-imagehover"
+                      data-image="project-2333" href="../project/cuvee-sauvage/index.html">Cuvée Sauvage</a>, <a
+                      class="home-intro__link js-intro-imagehover" data-image="project-1896"
+                      href="../project/mac-by-brookies/index.html">Mac</a> and many <a
+                      class="home-intro__link js-intro-others" href="../work/index.html">others</a>.</p>
+                </div>
+              </div>
+            </div>
+            <div class="home-intro__container js-intro-container" aria-hidden></div>
+            <img id="project-2731" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape"
+              src="../wp-content/uploads/2020/01/Co-Website_Project_Unshackled-V2-6-1-1400x873.jpg" srcset="
 			/wp-content/uploads/2020/01/Co-Website_Project_Unshackled-V2-6-1-768x479.jpg 768w,
 			/wp-content/uploads/2020/01/Co-Website_Project_Unshackled-V2-6-1-1024x638.jpg 1024w,
 			/wp-content/uploads/2020/01/Co-Website_Project_Unshackled-V2-6-1-1400x873.jpg 1400w,
 			/wp-content/uploads/2020/01/Co-Website_Project_Unshackled-V2-6-1-2000x1247.jpg 2000w,
 			/wp-content/uploads/2020/01/Co-Website_Project_Unshackled-V2-6-1.jpg 2140w
 		" alt="_Co-Website_Project_Unshackled-V2-6">
-<img id="project-2680" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape" src="../wp-content/uploads/2019/12/Co-Website_Project_BBB-hero-1400x869.jpg" srcset="
+            <img id="project-2680" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape"
+              src="../wp-content/uploads/2019/12/Co-Website_Project_BBB-hero-1400x869.jpg" srcset="
 			/wp-content/uploads/2019/12/Co-Website_Project_BBB-hero-768x477.jpg 768w,
 			/wp-content/uploads/2019/12/Co-Website_Project_BBB-hero-1024x636.jpg 1024w,
 			/wp-content/uploads/2019/12/Co-Website_Project_BBB-hero-1400x869.jpg 1400w,
 			/wp-content/uploads/2019/12/Co-Website_Project_BBB-hero-2000x1242.jpg 2000w,
 			/wp-content/uploads/2019/12/Co-Website_Project_BBB-hero.jpg 2149w
 		" alt="_Co-Website_Project_BBB-hero">
-<img id="project-2555" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape" src="../wp-content/uploads/2019/11/Co-Website_Project_Austins-Work-image-1400x922.jpg" srcset="
+            <img id="project-2555" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape"
+              src="../wp-content/uploads/2019/11/Co-Website_Project_Austins-Work-image-1400x922.jpg" srcset="
 			/wp-content/uploads/2019/11/Co-Website_Project_Austins-Work-image-768x506.jpg 768w,
 			/wp-content/uploads/2019/11/Co-Website_Project_Austins-Work-image-1024x674.jpg 1024w,
 			/wp-content/uploads/2019/11/Co-Website_Project_Austins-Work-image-1400x922.jpg 1400w,
 			/wp-content/uploads/2019/11/Co-Website_Project_Austins-Work-image-2000x1317.jpg 2000w,
 			/wp-content/uploads/2019/11/Co-Website_Project_Austins-Work-image.jpg 2149w
 		" alt="_Co-Website_Project_Austins-Work-image">
-<img id="project-2333" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape" src="../wp-content/uploads/2019/08/Co-Website_Project_Cuve%cc%81e-Sauvage_3-1400x974.jpg" srcset="
+            <img id="project-2333" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape"
+              src="../wp-content/uploads/2019/08/Co-Website_Project_Cuve%cc%81e-Sauvage_3-1400x974.jpg" srcset="
 			/wp-content/uploads/2019/08/Co-Website_Project_Cuvée-Sauvage_3-768x534.jpg 768w,
 			/wp-content/uploads/2019/08/Co-Website_Project_Cuvée-Sauvage_3-1024x712.jpg 1024w,
 			/wp-content/uploads/2019/08/Co-Website_Project_Cuvée-Sauvage_3-1400x974.jpg 1400w,
 			/wp-content/uploads/2019/08/Co-Website_Project_Cuvée-Sauvage_3-2000x1391.jpg 2000w,
 			/wp-content/uploads/2019/08/Co-Website_Project_Cuvée-Sauvage_3.jpg 2300w
 		" alt="_Co-Website_Project_Cuvée-Sauvage_3">
-<img id="project-1896" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape" src="../wp-content/uploads/2019/01/Co-Website_Project_Mac-by-Brookies_hero-4-1400x892.jpg" srcset="
+            <img id="project-1896" class="home-intro__project-cover js-intro-cover home-intro__project-cover--landscape"
+              src="../wp-content/uploads/2019/01/Co-Website_Project_Mac-by-Brookies_hero-4-1400x892.jpg" srcset="
 			/wp-content/uploads/2019/01/Co-Website_Project_Mac-by-Brookies_hero-4-768x489.jpg 768w,
 			/wp-content/uploads/2019/01/Co-Website_Project_Mac-by-Brookies_hero-4-1024x653.jpg 1024w,
 			/wp-content/uploads/2019/01/Co-Website_Project_Mac-by-Brookies_hero-4-1400x892.jpg 1400w,
 			/wp-content/uploads/2019/01/Co-Website_Project_Mac-by-Brookies_hero-4.jpg 2000w,
 			/wp-content/uploads/2019/01/Co-Website_Project_Mac-by-Brookies_hero-4.jpg 1654w
 		" alt="_Co-Website_Project_Mac-by-Brookie's_hero-4">
-<div id="project-others" class="home-intro__project-cover home-intro__project-cover--others js-intro-cover-others">
-<img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
+            <div id="project-others"
+              class="home-intro__project-cover home-intro__project-cover--others js-intro-cover-others">
+              <img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
 				/wp-content/uploads/2018/07/Co-Website_Project_Mortlach-V3-1-768x464.jpg 768w,
 				/wp-content/uploads/2018/07/Co-Website_Project_Mortlach-V3-1-1024x618.jpg 1024w,
 				/wp-content/uploads/2018/07/Co-Website_Project_Mortlach-V3-1-1400x845.jpg 1400w,
 				/wp-content/uploads/2018/07/Co-Website_Project_Mortlach-V3-1-2000x1207.jpg 2000w,
 				/wp-content/uploads/2018/07/Co-Website_Project_Mortlach-V3-1.jpg 2344w
 			" alt="_Co-Website_Project_Mortlach-V3-1">
-<img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
+              <img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
 				/wp-content/uploads/2018/08/Co-Website_Project_Canadian-Club-V2-Hero-2-768x385.jpg 768w,
 				/wp-content/uploads/2018/08/Co-Website_Project_Canadian-Club-V2-Hero-2-1024x514.jpg 1024w,
 				/wp-content/uploads/2018/08/Co-Website_Project_Canadian-Club-V2-Hero-2-1400x702.jpg 1400w,
 				/wp-content/uploads/2018/08/Co-Website_Project_Canadian-Club-V2-Hero-2-2000x1003.jpg 2000w,
 				/wp-content/uploads/2018/08/Co-Website_Project_Canadian-Club-V2-Hero-2.jpg 2344w
 			" alt="_Co-Website_Project_Canadian-Club-V2-Hero-2">
-<img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
+              <img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
 				/wp-content/uploads/2019/03/Co-Website_Project_Modus-375-cans-blue-hero-768x464.jpg 768w,
 				/wp-content/uploads/2019/03/Co-Website_Project_Modus-375-cans-blue-hero-1024x618.jpg 1024w,
 				/wp-content/uploads/2019/03/Co-Website_Project_Modus-375-cans-blue-hero-1400x845.jpg 1400w,
 				/wp-content/uploads/2019/03/Co-Website_Project_Modus-375-cans-blue-hero-2000x1207.jpg 2000w,
 				/wp-content/uploads/2019/03/Co-Website_Project_Modus-375-cans-blue-hero.jpg 2344w
 			" alt="_Co-Website_Project_Modus-375-cans-blue-hero">
-<img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
+              <img class="home-intro__other-thumbnail" src="#" sizes="(min-width: 700px) 33vw" srcset="
 				/wp-content/uploads/2018/09/Co-Website_Project_Stoneleigh-Wild-Valley-2-3-768x446.jpg 768w,
 				/wp-content/uploads/2018/09/Co-Website_Project_Stoneleigh-Wild-Valley-2-3-1024x594.jpg 1024w,
 				/wp-content/uploads/2018/09/Co-Website_Project_Stoneleigh-Wild-Valley-2-3-1400x812.jpg 1400w,
 				/wp-content/uploads/2018/09/Co-Website_Project_Stoneleigh-Wild-Valley-2-3-2000x1160.jpg 2000w,
 				/wp-content/uploads/2018/09/Co-Website_Project_Stoneleigh-Wild-Valley-2-3.jpg 3042w
 			" alt="_Co-Website_Project_Stoneleigh-Wild-Valley-2">
-</div>
-<div class="home-intro__covers">
-</div>
-</div>
-<div class="taglines" data-widget="taglines">
-<div class="taglines__container js-tagline-container">
-<div class="taglines__item js-tagline">
-<div class="js-tagline-page"></div>
-<div class="js-tagline-sections"></div>
-</div>
-</div>
-</div>
-<div class="main-heading__chunk main-heading__chunk--second js-main-heading-bottom-container">
-<div class="main-heading__chunk2 js-main-heading-bottom">
-<span style="opacity: 0">—</span>—Instituut™</em>
-</div>
-</div>
-</div>
-</h1>
-</div>
-</header>
-<div class="page-container js-page-container" data-page-container="true">
-<div data-widget="colorscheme" data-accent-color="" data-bg-color=""></div>
-<div data-widget="page-tagline" data-tagline="Your name here" data-page-title="Careers" data-is-homepage="" data-is-404=""></div>
-<div class="careers">
-<div class="careers__intro">
-<div class="ui-text ui-text--big">
-<p>We believe exceptional results are born from happy creative minds, so cultural fit goes hand in hand with talent and experience. Meet our current team:</p>
-</div>
-</div>
-<div class="careers__openings">
-<h3 class="careers__openings-heading">
-Our Team </h3>
-<div class="jobs" data-widget="accordion" data-allow-collapse-all data-allow-multiple-active>
-<ol class="jobs__list">
-<li class="jobs__item js-accordion-item">
-<button class="jobs__tab js-accordion-tab" type="button">
-<div class="jobs__label">
-	Suzanne van Beelen </div>
-<div class="jobs__intro">
-<p>coach / trainer / junior interim manage</p>
-</div>
-<div class="ui-toggle-icons">
-<div class="ui-toggle-icons__container">
-<div class="ui-toggle-icons__wrap">
-<div class="ui-toggle-icons__plus"></div>
-</div>
-<div class="ui-toggle-icons__wrap">
-<div class="ui-toggle-icons__minus"></div>
-</div>
-</div>
-</div>
-</button>
-<div class="jobs__wrapper js-accordion-wrapper">
-<div class="ui-text jobs__description js-accordion-content">
-	<img class="live-image" src="../assets/imgs/DCHA_5woman_20171110_0327.jpg" alt="DCHA_5woman_20171110_0327" style=""> <br><br>
-<p>WGedreven door haar positieve mindset is Suzanne altijd op zoek naar andermans kwaliteiten. Afhankelijk van de doelgroep kan dit een enorme uitdaging zijn. Echter het is haar authenticiteit, haar nuchterheid en de aandacht die ze aan de ander schenkt, die maken dat ze gemakkelijk de verbinding maakt en vertrouwen wint. Dit biedt een uiterst belangrijke basis voor een goede samenwerking. Met een sterk analytisch vermogen, een directe en eerlijke benadering en een uiterst goed gevoel voor timing, waarbij zij de sterke kanten van de ander benadrukt en deze uitvergroot, kan zij de focus verplaatsen naar het positieve en zo de gestelde doelen behalen.</p>
-</div>
-</div>
-</li>
-<li class="jobs__item js-accordion-item">
-<button class="jobs__tab js-accordion-tab" type="button">
-<div class="jobs__label">
-	Abigail Koopmans</div>
-<div class="jobs__intro">
-<p>senior interim manager / coach / trainer </p>
-</div>
-<div class="ui-toggle-icons">
-<div class="ui-toggle-icons__container">
-<div class="ui-toggle-icons__wrap">
-<div class="ui-toggle-icons__plus"></div>
-</div>
-<div class="ui-toggle-icons__wrap">
-<div class="ui-toggle-icons__minus"></div>
-</div>
-</div>
-</div>
-</button>
-<div class="jobs__wrapper js-accordion-wrapper">
-<div class="ui-text jobs__description js-accordion-content">
-	<img class="live-image" src="../assets/imgs/DCHA_5woman_20171110_0327.jpg" alt="DCHA_5woman_20171110_0327" style=""> <br><br>
-<p class="p1"><span class="s1">Onbevooroordeeld en met een oprechte interesse zoekt Abigail de verbinding met de ander op situaties te onderzoeken en te concretiseren. Met haar sterk analytische vermogen is zij in staat om deze in korte tijd te verhelderen. Met bezieling en een resultaatgerichte aanpak gaat zij samen met de ander op een missie.</span></p>
-<p class="p1"><span class="s1">Abigail is een goede luisteraar en is niet terughoudend in het benoemen van pijnpunten. Zakelijk en direct, maar altijd met respect en met een grote mate van zorgvuldigheid. Iemand die altijd kansen en mogelijkheden ziet en daardoor veelal een inspiratiebron is om anders naar bestaande zaken te kijken en zo situaties aan te pakken danwel op te kunnen lossen.</span></p>
-</div>
-</div>
-</li>
-<li class="jobs__item js-accordion-item">
-<button class="jobs__tab js-accordion-tab" type="button">
-<div class="jobs__label">
-	Anne Goené</div>
-<div class="jobs__intro">
-<p>trainer / coach / junior interim manager</p>
-</div>
-<div class="ui-toggle-icons">
-<div class="ui-toggle-icons__container">
-<div class="ui-toggle-icons__wrap">
-<div class="ui-toggle-icons__plus"></div>
-</div>
-<div class="ui-toggle-icons__wrap">
-<div class="ui-toggle-icons__minus"></div>
-</div>
-</div>
-</div>
-</button>
-<div class="jobs__wrapper js-accordion-wrapper">
-<div class="ui-text jobs__description js-accordion-content">
-<p>De grote kracht van Anne is haar vermogen om feilloos de wetenschap naar de praktijk te vertalen. Hierdoor ziet zij in elke lacune in het werkveld een kans om een op research gefundeerd project te bedenken en te ontwikkelen. Met haar vooruitziende blik en een drive om vernieuwend te zijn in combinatie met haar vermogen om verbanden te leggen is zij staat om snel de kern te benoemen en een situatie vanaf dit punt aan te pakken.</p>
-<p>In teamverband is Anne vaak de positieve aanjager met een dosis daadkracht die anderen enthousiasmeert en in staat stelt om op hetzelfde level te presteren en is zij erop gebrand om samen elk project de impact te realiseren die zij voor ogen heeft.</p>
- 
-<p>&nbsp;</p>
-</div>
-</div>
-</li>
+            </div>
+            <div class="home-intro__covers">
+            </div>
+          </div>
+          <div class="taglines" data-widget="taglines">
+            <div class="taglines__container js-tagline-container">
+              <div class="taglines__item js-tagline">
+                <div class="js-tagline-page"></div>
+                <div class="js-tagline-sections"></div>
+              </div>
+            </div>
+          </div>
+          <div class="main-heading__chunk main-heading__chunk--second js-main-heading-bottom-container">
+           
+          </div>
+        </div>
+      </h1>
+    </div>
+  </header>
+  <div class="page-container js-page-container" data-page-container="true">
+    <div data-widget="colorscheme" data-accent-color="" data-bg-color=""></div>
+    <div data-widget="page-tagline" data-tagline="Your name here" data-page-title="Careers" data-is-homepage=""
+      data-is-404=""></div>
+    <div class="careers">
+      <div class="careers__intro">
+        <div class="ui-text ui-text--big">
+          <p>We believe exceptional results are born from happy creative minds, so cultural fit goes hand in hand with
+            talent and experience. Meet our current team:</p>
+        </div>
+      </div>
+      <div class="careers__openings">
+        <h3 class="careers__openings-heading">
+          Our Team </h3>
+        <div class="jobs" data-widget="accordion" data-allow-collapse-all data-allow-multiple-active>
+          <ol class="jobs__list">
+            <li class="jobs__item js-accordion-item">
+              <button class="jobs__tab js-accordion-tab" type="button">
+                <div class="jobs__label">
+                  Suzanne van Beelen </div>
+                <div class="jobs__intro">
+                  <p>coach / trainer / junior interim manage</p>
+                </div>
+                <div class="ui-toggle-icons">
+                  <div class="ui-toggle-icons__container">
+                    <div class="ui-toggle-icons__wrap">
+                      <div class="ui-toggle-icons__plus"></div>
+                    </div>
+                    <div class="ui-toggle-icons__wrap">
+                      <div class="ui-toggle-icons__minus"></div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+              <div class="jobs__wrapper js-accordion-wrapper">
+                <div class="ui-text jobs__description js-accordion-content">
+                  <img class="live-image" src="../assets/imgs/DCHA_5woman_20171110_0327.jpg"
+                    alt="DCHA_5woman_20171110_0327" style=""> <br><br>
+                  <p>WGedreven door haar positieve mindset is Suzanne altijd op zoek naar andermans kwaliteiten.
+                    Afhankelijk van de doelgroep kan dit een enorme uitdaging zijn. Echter het is haar authenticiteit,
+                    haar nuchterheid en de aandacht die ze aan de ander schenkt, die maken dat ze gemakkelijk de
+                    verbinding maakt en vertrouwen wint. Dit biedt een uiterst belangrijke basis voor een goede
+                    samenwerking. Met een sterk analytisch vermogen, een directe en eerlijke benadering en een uiterst
+                    goed gevoel voor timing, waarbij zij de sterke kanten van de ander benadrukt en deze uitvergroot,
+                    kan zij de focus verplaatsen naar het positieve en zo de gestelde doelen behalen.</p>
+                </div>
+              </div>
+            </li>
+            <li class="jobs__item js-accordion-item">
+              <button class="jobs__tab js-accordion-tab" type="button">
+                <div class="jobs__label">
+                  Abigail Koopmans</div>
+                <div class="jobs__intro">
+                  <p>senior interim manager / coach / trainer </p>
+                </div>
+                <div class="ui-toggle-icons">
+                  <div class="ui-toggle-icons__container">
+                    <div class="ui-toggle-icons__wrap">
+                      <div class="ui-toggle-icons__plus"></div>
+                    </div>
+                    <div class="ui-toggle-icons__wrap">
+                      <div class="ui-toggle-icons__minus"></div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+              <div class="jobs__wrapper js-accordion-wrapper">
+                <div class="ui-text jobs__description js-accordion-content">
+                  <img class="live-image" src="../assets/imgs/DCHA_5woman_20171110_0327.jpg"
+                    alt="DCHA_5woman_20171110_0327" style=""> <br><br>
+                  <p class="p1"><span class="s1">Onbevooroordeeld en met een oprechte interesse zoekt Abigail de
+                      verbinding met de ander op situaties te onderzoeken en te concretiseren. Met haar sterk
+                      analytische vermogen is zij in staat om deze in korte tijd te verhelderen. Met bezieling en een
+                      resultaatgerichte aanpak gaat zij samen met de ander op een missie.</span></p>
+                  <p class="p1"><span class="s1">Abigail is een goede luisteraar en is niet terughoudend in het benoemen
+                      van pijnpunten. Zakelijk en direct, maar altijd met respect en met een grote mate van
+                      zorgvuldigheid. Iemand die altijd kansen en mogelijkheden ziet en daardoor veelal een
+                      inspiratiebron is om anders naar bestaande zaken te kijken en zo situaties aan te pakken danwel op
+                      te kunnen lossen.</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="jobs__item js-accordion-item">
+              <button class="jobs__tab js-accordion-tab" type="button">
+                <div class="jobs__label">
+                  Anne Goené</div>
+                <div class="jobs__intro">
+                  <p>trainer / coach / junior interim manager</p>
+                </div>
+                <div class="ui-toggle-icons">
+                  <div class="ui-toggle-icons__container">
+                    <div class="ui-toggle-icons__wrap">
+                      <div class="ui-toggle-icons__plus"></div>
+                    </div>
+                    <div class="ui-toggle-icons__wrap">
+                      <div class="ui-toggle-icons__minus"></div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+              <div class="jobs__wrapper js-accordion-wrapper">
+                <div class="ui-text jobs__description js-accordion-content">
+                  <p>De grote kracht van Anne is haar vermogen om feilloos de wetenschap naar de praktijk te vertalen.
+                    Hierdoor ziet zij in elke lacune in het werkveld een kans om een op research gefundeerd project te
+                    bedenken en te ontwikkelen. Met haar vooruitziende blik en een drive om vernieuwend te zijn in
+                    combinatie met haar vermogen om verbanden te leggen is zij staat om snel de kern te benoemen en een
+                    situatie vanaf dit punt aan te pakken.</p>
+                  <p>In teamverband is Anne vaak de positieve aanjager met een dosis daadkracht die anderen
+                    enthousiasmeert en in staat stelt om op hetzelfde level te presteren en is zij erop gebrand om samen
+                    elk project de impact te realiseren die zij voor ogen heeft.</p>
 
-</ol>
-</div>
-</div>
-<div class="careers__pre-footer">
-</div>
-</div>
-</div>
-<footer class="footer state-footer-active" data-widget="footer, section-tagline" data-tagline="Ready when you are"
+                  <p>&nbsp;</p>
+                </div>
+              </div>
+            </li>
+
+          </ol>
+        </div>
+      </div>
+      <div class="careers__pre-footer">
+      </div>
+    </div>
+  </div>
+  <footer class="footer state-footer-active" data-widget="footer, section-tagline" data-tagline="Ready when you are"
     data-type="footer">
     <div class="footer__section">
       <h4 class="footer__heading">
@@ -375,8 +457,7 @@ Our Team </h3>
       <div class="footer__content">
         <p>+31 99 999 9999 999</p>
         <p>
-          <a class="footer__external-link"
-            href="mailto:hello@soil.nl">
+          <a class="footer__external-link" href="mailto:hello@soil.nl">
             hello@soi.nl</a>
         </p>
       </div>
@@ -391,8 +472,8 @@ Our Team </h3>
       </a>
     </div>
 
-    
-   
+
+
     <div class="footer__section footer__section--credits">
       <a class="footer__small-link is-static" href="javascript:void(0)">
         &copy; 2020 Sociaal Opleidingsinstituut. All Rights Reserved.
@@ -406,10 +487,14 @@ Our Team </h3>
       </a>
     </div>
   </footer>
-<pagestate data-state="{&quot;template&quot;:&quot;template-careers&quot;,&quot;type&quot;:&quot;page&quot;,&quot;slug&quot;:&quot;careers&quot;}"></pagestate>
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='../wp-includes/js/wp-embed.minc225.js?ver=5.4.1'></script>
+  <pagestate
+    data-state="{&quot;template&quot;:&quot;template-careers&quot;,&quot;type&quot;:&quot;page&quot;,&quot;slug&quot;:&quot;careers&quot;}">
+  </pagestate>
+  <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script type='text/javascript' src='../wp-includes/js/wp-embed.minc225.js?ver=5.4.1'></script>
 
 </body>
 
 <!-- Mirrored from co-partnership.com/careers/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 May 2020 03:27:28 GMT -->
+
 </html>
